@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformService", "PlatformService\PlatformService.csproj", "{9C757649-BF81-45BB-98F7-CA5A1CF94B80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8S", "K8S", "{96C196E6-92D7-48A0-B91A-5CE5AC6F4B88}"
+	ProjectSection(SolutionItems) = preProject
+		K8S\command-depl.yaml = K8S\command-depl.yaml
+		K8S\local-pvc.yaml = K8S\local-pvc.yaml
+		K8S\mssql-depl.yaml = K8S\mssql-depl.yaml
+		K8S\nginx-indress-depl.yaml = K8S\nginx-indress-depl.yaml
+		platform-depl.yaml = platform-depl.yaml
+		K8S\platformnp.yaml = K8S\platformnp.yaml
+		K8S\rabbitmq-depl.yaml = K8S\rabbitmq-depl.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandsService", "CommandsService\CommandsService.csproj", "{1FFCDD9C-5FF3-406B-B742-4A1667EB2BAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C757649-BF81-45BB-98F7-CA5A1CF94B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C757649-BF81-45BB-98F7-CA5A1CF94B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C757649-BF81-45BB-98F7-CA5A1CF94B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C757649-BF81-45BB-98F7-CA5A1CF94B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FFCDD9C-5FF3-406B-B742-4A1667EB2BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFCDD9C-5FF3-406B-B742-4A1667EB2BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFCDD9C-5FF3-406B-B742-4A1667EB2BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFCDD9C-5FF3-406B-B742-4A1667EB2BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3E08D31-646C-4CFF-B4C6-7EA37C624F55}
+	EndGlobalSection
+EndGlobal
